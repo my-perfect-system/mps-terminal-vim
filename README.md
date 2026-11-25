@@ -19,7 +19,7 @@ curl -fsSL https://raw.githubusercontent.com/my-perfect-system/mps-terminal-vim/
 All methods deploy `config/vim/.vimrc` to the current user's `~/.vimrc` and seed
 `~/.NERDTreeBookmarks` only if absent (bookmarks are user state — never
 overwritten). One clone per host
-(`${MPS_REPO_DIR:-/srv/repo/github/my-perfect-system}`), shared by all users.
+(`${MPS_REPO_DIR:-/srv/repo/github/my-perfect-system/mps}`), shared by all users.
 
 ## Usage
 

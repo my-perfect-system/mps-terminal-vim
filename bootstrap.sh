@@ -10,7 +10,7 @@ REPO_URL="https://github.com/my-perfect-system/${REPO_NAME}.git"
 # Default system-wide mps repo dir — one clone per host, shared by every user
 # and by the odem.terminal.vim ansible role (identity_default_repo_dir_mps).
 # Override per invocation with the MPS_REPO_DIR env var.
-REPO_DIR_DEFAULT="/srv/repo/github/my-perfect-system"
+REPO_DIR_DEFAULT="/srv/repo/github/my-perfect-system/mps"
 
 REPO_DIR="${MPS_REPO_DIR:-${REPO_DIR_DEFAULT}}"
 DEST="${REPO_DIR}/${REPO_NAME}"
